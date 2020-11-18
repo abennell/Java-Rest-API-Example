@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "RestAPIExercises",
+		"_postman_id": "39ba6ec1-e918-ff2b-c9e3-48aadb41799c",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test",
+			"request": {
+				"url": "http://localhost:8081/restapp/showroom/brands",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": " {\n        \"brandId\": 4,\n        \"brandName\": \"DucatiMod\"\n    }"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
